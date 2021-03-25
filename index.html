@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchantment Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="calculator-wrapper">
+        <div id="calculator-input">
+            <div id="calculator-input-radio">
+                <label for="rbtnEternal">Eternal</label>
+                <input id="rbtnEternal" value="eternal" type="radio" name="item-type" checked>
+                <label for="rbtnMythical">Mythical</label>
+                <input id="rbtnMythical" value="mythical" type="radio" name="item-type">
+            </div>
+            <div id="calculator-input-levels">
+                <div id="calculator-input-itemLevel">
+                    <label for="slItemLevel">Item level:</label>
+                    <select name="" id="slItemLevel">
+                    </select>
+                </div>
+                <div id="calculator-input-enchLevel">
+                    <label for="slEnchLevel">Enchantment level:</label>
+                    <select name="" id="slEnchLevel">
+                    </select>
+                </div>
+            </div>
+            <button id="btnChance">My chances are</button>
+        </div>
+        <div id="calculator-output">
+            <div id="calculator-output-header">
+                <div>Stone level</div>
+                <div>%Chance</div>
+            </div>
+            <div id="calculator-output-content">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
